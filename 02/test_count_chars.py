@@ -1,5 +1,5 @@
 import unittest
-from countchars import count_chars
+from count_chars import count_chars
 
 class TestHello(unittest.TestCase):
 

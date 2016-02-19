@@ -1,6 +1,6 @@
 import re
 import unittest
-from quotes import print_quotes
+from print_quotes import print_quotes
 
 class TestQuotes(unittest.TestCase):
 
