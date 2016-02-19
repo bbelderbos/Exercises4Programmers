@@ -34,10 +34,11 @@ def calcs(num1, num2):
     ("/", divide(num1,num2)),
   ]
 
-num1 = get_num("first")
-num2 = get_num("second")
-out = []
-results = calcs(num1, num2)
-for op, res in results:
-  out.append("%d%s%d = %d\n" % (num1, op, num2, res))
-print "".join(out)
+if __name__ == "__main__":
+  num1 = get_num("first")
+  num2 = get_num("second")
+  out = []
+  results = calcs(num1, num2)
+  for op, res in results:
+    out.append("%d%s%d = %d\n" % (num1, op, num2, res))
+  print "".join(out)
